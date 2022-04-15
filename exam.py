@@ -16,8 +16,8 @@ def main():
     percent = attended / held * 100
     if percent >= 75:
         print(
-            "You've attended {0:,.2f}% of classes. You Can Take The Exam".format
-            (percent
+            "You've attended {0:,.2f}% of classes. You Can Take The Exam".format(
+                percent
             )
         )
     else:
